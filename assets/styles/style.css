@@ -36,7 +36,7 @@ h1, h2, h3, h4, h5, h6, p, div {
   }
 .top-wrapper {
     padding: 180px 0 155px 0;
-    background-image: url(/assets/img/main-bg.png);
+    background-image: url(assets/img/main-bg.png);
     color: rgb(8, 54, 63);
     background-size: cover;
 }
