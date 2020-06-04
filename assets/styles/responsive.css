@@ -3,6 +3,10 @@
     .top-wrapper h1 {
         font-size: 32px;
     }
+
+    .top-wrapper img {
+        width: 230px;
+    }
     
     .heading h2 {
         font-size: 20px;
@@ -11,6 +15,16 @@
     .lesson {
         width: 50%;
         margin-bottom: 50px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .contact-wrapper {
+        text-align: center;
+    }
+
+    .contact-wrapper input, textarea {
+        width: 400px;
     }
 }
   
@@ -22,6 +36,8 @@
     
     .menu-icon {
         display: block;
+        color: rgb(8, 54, 63);
+        padding: 25px 0px;
     }
     
     .top-wrapper h1 {
@@ -50,6 +66,10 @@
         width: 100%;
     }
     
+    .lesson:hover {
+        height: 400px;
+    }
+
     .contact-wrapper {
         text-align: center;
     }
@@ -58,4 +78,79 @@
         width: auto;
     }
 
+    footer {
+        text-align: center;
+    }
+
+    footer a {
+        font-size: 11px;
+    }
+}
+
+@media all and (max-width: 570px) {
+    .header-right {
+        display: none;
+    }
+    
+    .menu-icon {
+        display: block;
+        color: rgb(8, 54, 63);
+        padding: 25px 0px;
+    }
+    
+    .top-wrapper h1 {
+        font-size: 24px;
+        text-align: left;
+        line-height: 36px;
+        text-align: center;
+    }
+
+    .top-wrapper img {
+        width: 150px;
+        margin: 0 auto;
+    }
+    
+    .top-wrapper p {
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+    }
+    
+    .btn {
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .lesson {
+        width: 100%;
+    }
+
+    .lesson-icon img {
+        width: 130px;
+    }
+    
+    .txt-contents {
+        font-size: 13px;
+    }
+
+    .lesson:hover {
+        height: 400px;
+    }
+
+    .contact-wrapper {
+        text-align: center;
+    }
+
+    .contact-wrapper input, textarea {
+        width: 130px;
+        margin: 0 auto;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    footer a {
+        font-size: 8px;
+    }
 }
