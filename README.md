@@ -5,4 +5,4 @@ Group 9 : <br>
 <li>Muhammad Ihsanuddienullah</li>
 <li>Ivan Harsono - <b>Nonactive</b></li>
 <li>Albert - <b>Nonactive</b></li>
-<li>Diana Octaviana<li>
+<li>Diana Octaviana</li>
